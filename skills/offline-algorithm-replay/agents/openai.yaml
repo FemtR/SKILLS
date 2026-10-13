@@ -1,0 +1,8 @@
+interface:
+
+  display_name: "算法离线回放与回归验证"
+
+  short_description: "绕过界面，直接调用真实算法，用录制数据验证改进和回归结果"
+
+  default_prompt: "使用 $offline-algorithm-replay，基于录制数据建立真实算法的离线回放，比较修改前后结果并说明验证边界。"
+
